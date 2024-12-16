@@ -1,0 +1,110 @@
+/* General Styling */
+.App {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    background: linear-gradient(120deg, #f6d365, #fda085);
+    min-height: 100vh;
+    color: #444;
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  h2 {
+    color: #fefefe;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Input Fields */
+  .input-field {
+    margin: 10px;
+    padding: 12px 15px;
+    font-size: 1rem;
+    width: 260px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    transition: 0.3s;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border-color: #ffa500;
+    box-shadow: 0 0 8px #ffa500;
+  }
+  
+  /* Buttons */
+  .button {
+    margin-top: 15px;
+    padding: 12px 25px;
+    font-size: 1rem;
+    color: #fff;
+    background: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .button:hover {
+    background: #45a049;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Card Styling */
+  .item-card {
+    border: 2px solid #ffa500;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: left;
+    display: inline-block;
+    width: 320px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+  }
+  
+  .item-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .item-card p {
+    margin: 8px 0;
+  }
+  
+  .item-card strong {
+    color: #ff5722;
+  }
+  
+  /* Section Styling */
+  .list-item, .items, .owned-items {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .list-item h2, .items h2, .owned-items h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .item-card {
+      width: 90%;
+      margin: 15px auto;
+    }
+  
+    .input-field {
+      width: 90%;
+    }
+  }
